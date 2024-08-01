@@ -28,14 +28,9 @@ const Cover = () => {
           <input
             type="email"
             placeholder="Email Address"
-            className="px-10 py-2 rounded-md bg-black bg-opacity-20 border border-white h-12 sm:h-auto "
+            className="px-14 py-2 rounded-md bg-black bg-opacity-20 border border-white h-12 sm:h-auto"
           />
-          {/* <button className="bg-[#e50914] text-white  py-2 rounded-md  h-12  flex items-center ">
-            <span>Get Started</span>
-            <span>
-            <IoIosArrowForward />
-            </span>
-          </button> */}
+          
           <button className="bg-[#e50914] text-white flex items-center rounded px-2 py-2 gap-2 justify-center">
             <span>Get Started</span>
             <span>
@@ -44,7 +39,7 @@ const Cover = () => {
           </button>
         </div>
       </div>
-      <div className="h-2 bg-slate-600"></div>
+      <div className="h-3 bg-slate-700"></div>
     </div>
   );
 };
