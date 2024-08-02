@@ -2,6 +2,9 @@ import React from 'react';
 import Cover from './components/Cover';
 import TvSection from './components/TvSection';
 import DowonlodSection from './components/DowonlodSection';
+import WeatchSection from './components/WeatchSection';
+import ProfileSection from './components/ProfileSection';
+import Questions from './components/Questions';
 
 
 
@@ -11,6 +14,9 @@ const App = () => {
        <Cover/>
        <TvSection/>
        <DowonlodSection/>
+       <WeatchSection/>
+       <ProfileSection/>
+       <Questions/>
     </div>
   );
 };

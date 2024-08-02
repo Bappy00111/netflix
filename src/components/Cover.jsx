@@ -39,7 +39,7 @@ const Cover = () => {
           </button>
         </div>
       </div>
-      <div className="h-3 bg-slate-700"></div>
+      <div className="h-3 bg-slate-800"></div>
     </div>
   );
 };
