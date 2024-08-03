@@ -9,17 +9,17 @@ const Cover = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <nav className="relative z-10 flex justify-between items-center px-2 sm:max-w-xl md:max-w-screen-xl mx-auto h-[60px]">
         <img className="h-[50px] w-[100px]" src={logo} alt="Logo" />
-        <button className="bg-[#e50914] text-white px-2 py-1 rounded">
+        <button className="bg-[#e50914] text-white px-4 py-2 rounded text-[14px] font-bold">
           Sign In
         </button>
       </nav>
       <div className="text-white relative z-10 h-[calc(100%-60px)] flex flex-col justify-center items-center text-center ">
         <div className="space-y-5">
-          <h4 className="font-bold text-2xl md:text-4xl">
+          <h4 className="font-extrabold text-[30px] md:text-[50px]">
             Unlimited movies, TV shows, and more
           </h4>
-          <h2 className="text-xl">Watch anywhere. Cancel anytime.</h2>
-          <p>
+          <h2 className="text-[24px]">Watch anywhere. Cancel anytime.</h2>
+          <p className="text-[24px]">
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>

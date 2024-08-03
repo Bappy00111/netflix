@@ -81,7 +81,7 @@ const Questions = () => {
         <p className="text-center text-xl mb-0">
           Ready to watch? Enter your email to create or restart your membership.
         </p>
-        <div className="flex justify-center">
+        <div className="flex justify-center m-0" style={{margin:0}}>
           <div className="flex flex-col sm:flex-row mt-5 gap-2">
             <input
               type="email"
