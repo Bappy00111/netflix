@@ -6,44 +6,44 @@ import { IoIosArrowForward } from "react-icons/io";
 const Questions = () => {
   return (
     <div>
-      <div className="bg-[#000000] text-white py-10 space-y-6 px-4">
+      <div className="bg-[#000000] text-white py-10 space-y-6 px-6">
         <h1 className="text-3xl md:text-5xl font-bold md:tracking-wide text-center">
           Frequently Asked
           <span className="md:hidden block mt-2"></span> Questions
         </h1>
-        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-6 ">
-          <span className="text-2xl">What is Netflix?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">What is Netflix?</span>
 
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
         </div>
-        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-6">
-          <span className="text-2xl">How much does Netflix cost?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">How much does Netflix cost?</span>
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
         </div>
-        <div className="flex justify-between items-center bg-[#2d2d2d] w-full md:w-2/3 mx-auto px-4 py-6">
-          <span className="text-2xl">Where can I watch?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d] w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">Where can I watch?</span>
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
         </div>
-        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-6">
-          <span className="text-2xl">How do I cancel?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">How do I cancel?</span>
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
         </div>
-        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-6">
-          <span className="text-2xl">What can I watch on Netflix?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">What can I watch on Netflix?</span>
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
         </div>
-        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-6">
-          <span className="text-2xl">Is Netflix good for kids?</span>
+        <div className="flex justify-between items-center bg-[#2d2d2d]  w-full md:w-2/3 mx-auto px-4 py-4 md:py-6">
+          <span className="text-xl md:text-2xl">Is Netflix good for kids?</span>
           <span>
             <AiOutlinePlus className="text-3xl" />
           </span>
